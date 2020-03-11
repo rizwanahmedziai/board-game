@@ -4,7 +4,7 @@ class Board {
 		this.columns = 7;
 		this.spaces = this.createSpaces();
 	}
-}
+};
 
 /** 
  * Generates 2D array of spaces. 
@@ -23,4 +23,4 @@ createSpaces() {
     spaces.push(column);
   }
   return spaces;
-}
+};
